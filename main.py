@@ -129,7 +129,6 @@ checkbox(bind=transparency, text='Transparent')
 #     if running:
 #         currentobject.car_body.rotate(angle=sl.value * dt, axis=vector(0, 1, 0))
 
-
 dt = 0.1
 while True:
     rate(1 / dt)
